@@ -2,19 +2,25 @@
 <html lang="de">
   <head>
     <meta charset="utf-8">
-    <title><%= @page.title %> - <%= @site.name %></title>
+    <title><%= @site.name %></title>
     <link rel="stylesheet" href="<%= asset "css/styles.css" %>">
   </head>
   <body>
     <div class="container">
-      <h1>
-        <a href="<%= base() %>"><%= @site.name %></a>
+      <h1 class="header">
+        <span>
+          <%= @site.name %>
+          &#x2708;
+        </span>
+        <span>
+          <%= @site.description %>
+        </span>
       </h1>
-      <p>
-        <%= @site.description %>
-      </p>
+
       <%= include "nav" %>
+
       <%= @contents %>
+
     </div>
   </body>
 </html>

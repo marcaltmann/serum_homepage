@@ -1,16 +1,22 @@
 ---
-title: Welcome
+title: Startseite
 ---
 
-*Hello, world!*
+## Über mich
 
-If you are seeing this page through your web browser, you have successfully
-created a new Serum project.
+* Frontend-Entwickler in Berlin
+* Was ich kann:
+  * HTML5/CSS3, JavaScript
+  * React, Ember.js, D3.js
+  * Testing
+  * Ruby on Rails
 
-## What's Next?
+### Ausbildung
 
-[The official Serum website](https://dalgona.github.io/Serum/docs) provides
-a comprehensive set of documentation that will help you customize this website
-further.
+* Studium Filmwissenschaft/Informatik an der FU Berlin
 
-Thank you for using Serum!
+### Kontakt
+
+* GitHub: [marcaltmann](https://github.com/marcaltmann/)
+* E-Mail: [marcaltmann@posteo.de](mailto:marcaltmann@posteo.de)
+* Tel.: +491707748377

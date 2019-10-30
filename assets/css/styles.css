@@ -8,6 +8,9 @@
     Georgia, serif;
   font-size: 1rem;
   line-height: 1.5rem;
+  --bg-color: #fff9ee;
+  --link-color: #00174b;
+  --link-color2: #2e4272;
 }
 
 @media screen and (min-width: 40em) {
@@ -25,7 +28,32 @@
 }
 
 body {
+  background-color: var(--bg-color);
   margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+a:link,
+a:visited {
+  color: var(--link-color2);
+}
+
+li {
+  margin-top: 0;
 }
 
 
@@ -39,4 +67,48 @@ body {
   max-width: 40rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.header {
+  display: flex;
+}
+
+.header > span:last-child {
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.menu {
+
+}
+
+.menu__list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu__item {
+  margin-top: 0;
+}
+
+.menu__item:not(:last-of-type) {
+  margin-right: 1.5rem;
+}
+
+.menu__link {
+  font-weight: bold;
+}
+
+.menu__link:link {
+  text-decoration: none;
+}
+
+/** Media queries */
+
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }

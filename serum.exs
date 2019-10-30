@@ -1,6 +1,6 @@
 %{
   site_name: "Marc Altmann",
-  site_description: "Frontend web development",
+  site_description: "Web dev.",
   date_format: "{WDfull}, {D} {Mshort} {YYYY}",
   base_url: "/",
   author: "Marc Altmann",

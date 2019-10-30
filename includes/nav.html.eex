@@ -1,4 +1,10 @@
-<ul>
-  <li><a href="<%= page "index" %>">Home</a></li>
-  <li><a href="<%= base "posts" %>">Posts</a></li>
-</ul>
+<nav class="menu">
+  <ul class="menu__list">
+    <li class="menu__item">
+      <a class="menu__link" href="<%= page "index" %>">&#x25ba; Über mich</a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="<%= page "projects" %>">&#x25ba; Projekte</a>
+    </li>
+  </ul>
+</nav>
